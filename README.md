@@ -1,10 +1,14 @@
 <div align="center">
 
+<img src="./assets/zuhui-report-256.png" width="88" alt="zuhui-report icon">
+
 # 📝 zuhui-report
 
 **把跟 AI 迭代科研的整段对话，一键变成组会汇报。**
 
 <sub>组会前一分钟，把散落在对话里的进展、结果、卡点、计划，整理成一份能直接交给导师的 Markdown。</sub>
+
+<sub><b>中文</b> · <a href="./README_en.md">English</a></sub>
 
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-SKILL.md-5A67D8?style=flat-square)](https://agentskills.io)
 [![Codex](https://img.shields.io/badge/Codex-✓-000000?style=flat-square)](https://developers.openai.com/codex/skills/)
@@ -121,10 +125,11 @@ git clone <this-repo> ~/.claude/skills/zuhui-report
 zuhui-report/
 ├── SKILL.md                 # 核心指令：流程、抽取规则、模板、约束
 ├── agents/
-│   └── openai.yaml          # Codex UI 元数据（显示名、默认提示语）
+│   └── openai.yaml          # Codex UI 元数据（显示名、默认提示语、图标）
+├── assets/                  # 技能图标（PNG + SVG）
 ├── examples/
 │   └── example-output.md    # 生成效果示例
-├── README.md
+├── README.md / README_en.md
 └── LICENSE
 ```
 

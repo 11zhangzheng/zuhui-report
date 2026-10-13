@@ -4,4 +4,6 @@
 interface:
   display_name: "组会汇报生成"
   short_description: "读取当前会话，一键生成研究生组会汇报 Markdown"
+  icon_small: "./assets/zuhui-report-small.svg"
+  icon_large: "./assets/zuhui-report.png"
   default_prompt: "读取当前会话上下文，提炼科研工作内容，生成组会汇报 Markdown 文档。"
