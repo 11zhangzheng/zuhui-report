@@ -18,6 +18,14 @@
 
 </div>
 
+<div align="center">
+
+<img src="./assets/demo.png" width="900" alt="From a scattered conversation to a lab-meeting report: chat on the left, generated report on the right">
+
+<sub>Input: scattered chat with your AI &nbsp;→&nbsp; Output: a report you can send to your advisor</sub>
+
+</div>
+
 ---
 
 ## 😩 Sound familiar?
@@ -132,8 +140,9 @@ zuhui-report/
 ├── SKILL.md                 # Core: workflow, extraction rules, template, constraints
 ├── agents/
 │   └── openai.yaml          # Codex UI metadata (display name, default prompt, icons)
-├── assets/                  # Skill icons (PNG + SVG)
+├── assets/                  # Skill icons + README demo image
 ├── examples/                # Sample outputs per mode (full / brief / ppt-outline / EN)
+├── scripts/                 # Script that generates the README demo image
 ├── README.md / README_en.md
 └── LICENSE
 ```

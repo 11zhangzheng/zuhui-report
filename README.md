@@ -19,6 +19,14 @@
 
 </div>
 
+<div align="center">
+
+<img src="./assets/demo.png" width="900" alt="从一整段对话到一份组会汇报：左侧为与 AI 的零散对话，右侧为生成的组会汇报">
+
+<sub>输入：和 AI 的零散对话　→　输出：可直接发给导师的组会汇报</sub>
+
+</div>
+
 ---
 
 ## 😩 你是不是也这样
@@ -133,8 +141,9 @@ zuhui-report/
 ├── SKILL.md                 # 核心指令：流程、抽取规则、模板、约束
 ├── agents/
 │   └── openai.yaml          # Codex UI 元数据（显示名、默认提示语、图标）
-├── assets/                  # 技能图标（PNG + SVG）
+├── assets/                  # 技能图标 + README 展示图
 ├── examples/                # 各模式输出样例（full / brief / ppt-outline / 英文）
+├── scripts/                 # 生成 README 展示图的脚本
 ├── README.md / README_en.md
 └── LICENSE
 ```
