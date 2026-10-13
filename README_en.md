@@ -105,7 +105,14 @@ Generate a report as ppt-outline only, and predict my advisor's questions
 
 ## 📋 Output sample
 
-See the full example in [`examples/example-output.md`](examples/example-output.md). Structure:
+Every mode ships with a viewable example:
+
+- 📝 Full written report: [`examples/example-output.md`](examples/example-output.md)
+- 🗣️ Spoken outline (`brief`): [`examples/example-output-brief.md`](examples/example-output-brief.md)
+- 📊 Slide points (`ppt-outline`): [`examples/example-output-ppt-outline.md`](examples/example-output-ppt-outline.md)
+- 🇬🇧 English full report: [`examples/example-output-en.md`](examples/example-output-en.md)
+
+Structure:
 
 ```markdown
 # Group Meeting Report - [Project]
@@ -126,8 +133,7 @@ zuhui-report/
 ├── agents/
 │   └── openai.yaml          # Codex UI metadata (display name, default prompt, icons)
 ├── assets/                  # Skill icons (PNG + SVG)
-├── examples/
-│   └── example-output.md    # What the output looks like
+├── examples/                # Sample outputs per mode (full / brief / ppt-outline / EN)
 ├── README.md / README_en.md
 └── LICENSE
 ```

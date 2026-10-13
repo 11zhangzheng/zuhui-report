@@ -106,7 +106,14 @@ git clone <this-repo> ~/.claude/skills/zuhui-report
 
 ## 📋 输出示例
 
-完整示例见 [`examples/example-output.md`](examples/example-output.md)，结构如下：
+每种模式都有可直接查看的样例：
+
+- 📝 完整书面报告：[`examples/example-output.md`](examples/example-output.md)
+- 🗣️ 口头汇报提纲（`brief`）：[`examples/example-output-brief.md`](examples/example-output-brief.md)
+- 📊 PPT 要点（`ppt-outline`）：[`examples/example-output-ppt-outline.md`](examples/example-output-ppt-outline.md)
+- 🇬🇧 英文完整报告：[`examples/example-output-en.md`](examples/example-output-en.md)
+
+结构如下：
 
 ```markdown
 # 组会汇报 - 【项目名称】
@@ -127,8 +134,7 @@ zuhui-report/
 ├── agents/
 │   └── openai.yaml          # Codex UI 元数据（显示名、默认提示语、图标）
 ├── assets/                  # 技能图标（PNG + SVG）
-├── examples/
-│   └── example-output.md    # 生成效果示例
+├── examples/                # 各模式输出样例（full / brief / ppt-outline / 英文）
 ├── README.md / README_en.md
 └── LICENSE
 ```
