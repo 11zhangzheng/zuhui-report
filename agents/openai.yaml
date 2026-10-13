@@ -1,0 +1,7 @@
+# Codex UI 元数据。Codex 仅在 skill 被选中时读取本文件用于界面展示。
+# SKILL.md 始终是唯一的事实来源（source of truth），本文件只放展示信息，不重复指令。
+
+interface:
+  display_name: "组会汇报生成"
+  short_description: "读取当前会话，一键生成研究生组会汇报 Markdown"
+  default_prompt: "读取当前会话上下文，提炼科研工作内容，生成组会汇报 Markdown 文档。"

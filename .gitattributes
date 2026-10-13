@@ -1,0 +1,6 @@
+# 统一使用 LF，避免跨平台换行符差异破坏 skill 文件
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary
